@@ -1,0 +1,40 @@
+.logo{
+    color: #fff;
+}
+.brand{
+    margin-top: -23px;
+    letter-spacing: 8px;
+
+}
+
+.nav{
+    width: 100%;
+    background-color: #423324;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: fixed;
+    height: 67px;
+    
+    
+   
+    
+}
+.nav-links{
+    width: 34%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav-link{
+    text-decoration: none;
+    color: #fff;
+
+
+}
+.nav-link:hover{
+  
+    color: #FDE9C9;
+   
+   
+}

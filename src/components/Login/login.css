@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&display=swap');
+
+
+.signup-body{
+    background-color: #FDE9C9;
+    width: 100%;
+    height: 109vh;
+    color: #423324;
+}
+.home-section {
+    display: flex;
+    color: black;
+    
+}
+.whole-signup{
+    display: flex;
+    margin-top: 4%;
+    margin-left: 4%;
+
+
+}
+.submain{
+    margin-top: 4%;
+    background-color: #fff;
+    width: 34%;
+    height: 400px;
+    margin-left: 6%;
+    padding:3% 3%;
+}
+.submain2 img{
+    margin-top: 8.6%;
+    background-color: #fff;
+    width: 94%;
+    height: 475px;
+}
+
+.form input{
+    margin-bottom: 7%;
+    width: 83%;
+    height: 4vh;
+}
+.check{
+    font-size: 94%;
+}
+.form button{
+    background-color: #423324;
+    color: #fff;
+    padding: 8px 96px;
+    margin-bottom: 3%;
+    border-radius: 23px;
+    border: none;
+}
+.form button:hover{
+    background-color: #423324;
+    color: #fff;
+    padding: 8px 96px;
+    margin-bottom: 3%;
+    border-radius: 23px;
+    border: none;
+}
+.login-page{
+    display: flex;
+    align-items: center;
+    width: 73%;
+    justify-content: space-around;
+    margin-left: -2%;
+    margin-top: 9%;
+
+
+}
+.login-page-h4 h4{
+    /* background-color: #423324; */
+    width: 123%;
+    font-weight: lighter;
+}
+.login-page-button button{
+    background-color: #423324;
+    color: #fff;
+    padding: 2px 22px;
+    border-radius: 23px;
+    border: none;
+   
+}
+.login-page-button button:hover{
+    box-shadow: 3px 3px 22px 13px #f0a878;
+}
