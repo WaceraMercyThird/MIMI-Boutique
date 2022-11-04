@@ -88,7 +88,7 @@ function Fashion() {
 
 <div className='box'>
 
-<img src={collaction} alt="Market" width="100%"/><div>
+<img src={dress} alt="Market" width="100%"/><div>
   <div className='price'>
     <h1>Ksh 2800/=</h1>
 

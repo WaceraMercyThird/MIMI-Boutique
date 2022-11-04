@@ -1,7 +1,7 @@
 
 import { BrowserRouter, Switch, Route } from "react-router-dom";
 
-import Signup from "./components/Login/login";
+import Signup from "./components/Signup/signup";
 
 import Home from "./components/Home/home";
 import Fashion from "./components/Fashion/collection";

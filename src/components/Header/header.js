@@ -1,7 +1,6 @@
 // import logo from './logo.svg';
 import './header.css';
 import { Link, } from "react-router-dom";
-import {FaShoppingCart} from "react-icons/fa";
 
 function Header() {
   return (

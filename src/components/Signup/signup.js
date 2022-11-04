@@ -1,5 +1,4 @@
-import './login.css';
-// import { Link, } from "react-router-dom";
+import './signup.css';
 import Header from '../Header/header';
 import flock from '../Images/signup-img.jpg';
 
