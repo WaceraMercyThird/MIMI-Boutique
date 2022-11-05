@@ -1,4 +1,4 @@
-import './signup.css';
+import "./login.css";
 import Header from '../Header/header';
 import flock from '../Images/signup-img.jpg';
 import { Link } from 'react-router-dom';
@@ -7,7 +7,7 @@ import { Link } from 'react-router-dom';
 
 
 
-function Signup() {
+function Login() {
     return (
       <div className=" signup-body">
         <div className='nav-bar'>
@@ -22,27 +22,21 @@ function Signup() {
 
         <div className='submain'>
             <div className='signup-header'>
-                <h2>Free and User-friendly <br></br> fashion platform </h2>
+                <h2>Continue using our fashion <br></br> platform </h2>
                 
             </div>
             <div>
-                <form className='form'>
-
-                <label  for="first_name"> First Name</label><br></br> 
-                    <input placeholder='Enter first name'></input><br></br> 
-
-                    <label  for="second_name"> Second Name</label><br></br> 
-                    <input placeholder='Enter second name'></input><br></br>
+                <form className='forms'>
                     
                     <label  for="email"> Email</label><br></br> 
                     <input placeholder='Enter your email'></input><br></br> 
 
-                    <label  for="phone_number"> Phone Number</label><br></br> 
-                    <input placeholder='Enter your phone number'></input><br></br> 
-
                     <label for="password"> Password</label><br></br> 
                     <input placeholder='... and choose your password'></input><br></br> 
+                    <Link to="/cart">
+                    
                     <button>Create free account</button><br></br> 
+                    </Link>
 
 
 
@@ -53,15 +47,15 @@ function Signup() {
                     <label  className='check' for="vehicle1"> Accept MIMI's terms and data processor agreement* </label><br></br>
                     <div>
 
-                        <div className='login-page'>
-                            <div className='login-page-h4'>
+                        <div className='signup-page'>
+                            <div className='signup-page-h4'>
 
-                        <h4>Already have an account?</h4>
+                        <h4>Don't have an account?</h4>
                             </div>
-                            <div className='login-page-button'>
-                                <Link to="/login">
+                            <div className='signup-page-button'>
+                                <Link to="/signup">
                                 
-                        <button>Log In</button>
+                        <button>Sign Up</button>
                                 </Link>
 
                             </div>
@@ -90,4 +84,4 @@ function Signup() {
     );
   }
   
-  export default Signup;
+  export default Login;

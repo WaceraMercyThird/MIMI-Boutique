@@ -42,8 +42,8 @@ function Fashion() {
               </div>
               <div className='buy-collection'>
                 
-              <Link className='collection-btn'>
-              <button>Buy</button>
+              <Link className='collection-btn'to="/signup">
+  <button type='button'>Buy</button>
             </Link>
             
 
@@ -60,8 +60,8 @@ function Fashion() {
   </div>
   <div className='buy-collection'>
     
-  <Link className='collection-btn'>
-  <button>Buy</button>
+  <Link className='collection-btn'to="/signup">
+  <button type='button'>Buy</button>
 </Link>
 
 
@@ -77,8 +77,8 @@ function Fashion() {
   </div>
   <div className='buy-collection'>
     
-  <Link className='collection-btn'>
-  <button>Buy</button>
+  <Link className='collection-btn'to="/signup">
+  <button type='button'>Buy</button>
 </Link>
 
 
@@ -95,8 +95,8 @@ function Fashion() {
   </div>
   <div className='buy-collection'>
     
-  <Link className='collection-btn'>
-  <button>Buy</button>
+  <Link className='collection-btn' to="/signup">
+  <button type='button'>Buy</button>
 </Link>
 
 
@@ -122,8 +122,8 @@ function Fashion() {
               </div>
               <div className='buy-collection'>
                 
-              <Link className='collection-btn'>
-              <button>Buy</button>
+              <Link className='collection-btn'to="/signup">
+  <button type='button'>Buy</button>
             </Link>
             
 
@@ -139,8 +139,8 @@ function Fashion() {
   </div>
   <div className='buy-collection'>
     
-  <Link className='collection-btn'>
-  <button>Buy</button>
+  <Link className='collection-btn'to="/signup">
+  <button type='button'>Buy</button>
 </Link>
 
 
@@ -157,8 +157,8 @@ function Fashion() {
   </div>
   <div className='buy-collection'>
     
-  <Link className='collection-btn'>
-  <button>Buy</button>
+  <Link className='collection-btn'to="/signup">
+  <button type='button'>Buy</button>
 </Link>
 
 
@@ -175,8 +175,8 @@ function Fashion() {
   </div>
   <div className='buy-collection'>
     
-  <Link className='collection-btn'>
-  <button>Buy</button>
+  <Link className='collection-btn'to="/signup">
+  <button type='button'>Buy</button>
 </Link>
 
 

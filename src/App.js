@@ -5,6 +5,7 @@ import Signup from "./components/Signup/signup";
 
 import Home from "./components/Home/home";
 import Fashion from "./components/Fashion/collection";
+import Login from "./components/Signup/login";
 
 import "./App.css";
 
@@ -28,6 +29,9 @@ const App=()=>{
             </Route>
             <Route path="/signup">
               <Signup/>
+            </Route>
+            <Route path="/login">
+              <Login/>
             </Route>
             
          

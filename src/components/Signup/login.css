@@ -35,15 +35,15 @@
     height: 511px;
 }
 
-.form input{
-    margin-bottom: 1%;
+.forms input{
+    margin-bottom: 7%;
     width: 83%;
     height: 4vh;
 }
 .check{
     font-size: 94%;
 }
-.form button{
+.forms button{
     background-color: #423324;
     color: #fff;
     padding: 8px 96px;
@@ -59,22 +59,21 @@
     border-radius: 23px;
     border: none;
 }
-.login-page{
+.signup-page{
     display: flex;
     align-items: center;
     width: 73%;
     justify-content: space-around;
     margin-left: -2%;
-    margin-top: 2%;
+    margin-top: 18%;
 
 
 }
-.login-page-h4 h4{
-    /* background-color: #423324; */
+.signup-page-h4 h4{
     width: 123%;
     font-weight: lighter;
 }
-.login-page-button button{
+.signup-page-button button{
     background-color: #423324;
     color: #fff;
     padding: 2px 22px;
@@ -82,6 +81,6 @@
     border: none;
    
 }
-.login-page-button button:hover{
+.signup-page-button button:hover{
     box-shadow: 3px 3px 22px 13px #f0a878;
 }
